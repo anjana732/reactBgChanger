@@ -7,11 +7,11 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen duration-200" style={{background: color}}>test
-        <div>
-          <button onClick={()=> setColor("red")}> Red</button>
-          <button onClick={()=> setColor("green")}> Green</button>
-          <button onClick={()=> setColor("blue")}> Blue</button>
+      <div className="w-full h-screen duration-200" style={{background: color}}>
+        <div className="flex flex-wrap justify-center px-2 bg-white bottom-12">
+          <button onClick={()=> setColor("red")} style={{background: "red"}}> Red</button>
+          <button onClick={()=> setColor("green")} style={{background: "green"}}> Green</button>
+          <button onClick={()=> setColor("blue")} style={{background: "blue"}}> Blue</button>
         </div>
       </div>
     </>
